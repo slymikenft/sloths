@@ -4,7 +4,7 @@ import $ from 'jquery';
 
 import { useState, useEffect } from 'react';
 
-import {ADDRESS, ABI} from "./congif"
+import {ADDRESS, ABI} from "./../congif"
 
 
 export default function Home() {
@@ -352,6 +352,9 @@ async function mintBanana(how_many_bananas) {
         </div>
         </section>
       </main>
+      <footer>
+
+      </footer>
     </div>
   )
 }
