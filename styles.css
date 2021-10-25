@@ -807,3 +807,16 @@ html {
   font-family: 'MSBold';
   margin-bottom: 0.5rem;
 }
+
+#promo > div {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+#promo {
+  padding:0;
+}
+
+#promo img {
+  max-width: 12.5%;
+}
