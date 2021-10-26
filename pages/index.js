@@ -245,7 +245,7 @@ export default function Home() {
           <div className="f1">
             <div className="faq">
               <span>What is <span className="blueC">Sly Sloths World</span>?</span>
-              <span>Sly Sloth World is a collection of 10,000 unique, randomly generated NFTs that just want to live in peace and safety.</span>
+              <span>Sly Sloths World is a collection of 10,000 unique, randomly generated NFTs that just want to live in peace and safety.</span>
             </div>
           </div>
           <div className="f1">
