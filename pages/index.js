@@ -198,7 +198,7 @@ export default function Home() {
               <div>
                 <div>
                   <span>Sly Nathan</span>
-                  <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span>
+                  <span>Marketing not-so specialist & community manager. He’s passionate about making the community safe and sound. Just please, use emojis when you’re engaging with a conversation to him or he might think that you’re angry when you don’t use ‘em. He’s the kindest, the most humble, and the most handsome human being according to his mum.</span>
                </div>
               </div>
             </div>
@@ -207,7 +207,7 @@ export default function Home() {
             <div>
                 <div>
                   <span>Sly Josie</span>
-                  <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span>
+                  <span>Art directress. She’s an artist. She cares way too much about her "images."" Yup, not only an image but 10,000 of ‘em. A newbie in the industry, but it was a love at first sight. She might not own any $SHIB but definitely owns a living, barking Shiba Inu.</span>
                </div>
               </div>
             </div>
@@ -216,7 +216,7 @@ export default function Home() {
             <div>
                 <div>
                   <span>Sly Mike</span>
-                  <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span>
+                  <span>Founder & Developer. The father of them all. The decision maker. He loves football, jpegs, and sloths. He’s the techie boss that owns a software house in real life. He believes in the saying, <i>"When life gives you lemons, buy a jpeg as it is easier than making a lemonade."</i></span>
                </div>
               </div>
             </div>
