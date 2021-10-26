@@ -19,6 +19,19 @@ export default function Home() {
       <Head>
         <title>Sly Sloths World</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content="Sly Sloths World" key="ogtitle" />
+        <meta property="og:description" content="SSW is a collection of 10,000 Sly Sloths NFTs-unique digital collectibles living on the Ethereum blockchain." key="ogdesc" />
+        <meta property="og:type" content="website" key="ogtype" />
+        <meta property="og:url" content="https://slyslothsworld.co,/" key="ogurl"/>
+        <meta property="og:image" content="https://slyslothsworld.com/static/planet2.png" key="ogimage"/>
+        <meta property="og:site_name" content="https://slyslothsworld.com/" key="ogsitename" />
+
+        <meta name="twitter:card" content="summary_large_image" key="twcard"/>
+        <meta property="twitter:domain" content="slyslothsworld.com" key="twdomain" />
+        <meta property="twitter:url" content="https://slyslothsworld.com/" key="twurl" />
+        <meta name="twitter:title" content="Sly Sloths World" key="twtitle" />
+        <meta name="twitter:description" content="SSW is a collection of 10,000 Sly Sloths NFTs-unique digital collectibles living on the Ethereum blockchain." key="twdesc" />
+        <meta name="twitter:image" content="https://slyslothsworld.com/static/planet2.png" key="twimage" />
       </Head>
       <nav className="dF container">
           <img height="50" className="dB icon" src={'/static/logo.jpg'} />
@@ -59,9 +72,9 @@ export default function Home() {
             <div id='title' className="container dF">
               <div className="dF vC">
                 <div>
-                  <span className="f14 sF lT4 blueC">WELCOME TO THE SLY SLOTHS WORLD</span>
+                  <span className="f14 sF lT4 blueC">JOIN OUR JOURNEY</span>
                   <span className="sF f40 whiteC lT4">WELCOME TO THE SLY SLOTHS WORLD</span>
-                  <span className="f16 whiteC mT1 mB2 lT1" style={{lineHeight: "22px;"}}>SSW is a collection of 10,000 Sly Sloth NFTs-unique digital collectibles living on the Ethereum blockchain.</span>
+                  <span className="f16 whiteC mT1 mB2 lT1" style={{lineHeight: "22px;"}}>SSW is a collection of 10,000 Sly Sloths NFTs-unique digital collectibles living on the Ethereum blockchain.</span>
                   <div className="dF mT1 btns">
                     <a target="_blank" href="https://discord.gg/2As8URk4" className="whiteBtn">JOIN DISCORD</a>
                     <a href="#story" className="blueBtn mL1">READ MORE</a>
@@ -198,7 +211,7 @@ export default function Home() {
               <div>
                 <div>
                   <span>Sly Nathan</span>
-                  <span>Marketing not-so specialist & community manager. He’s passionate about making the community safe and sound. Just please, use emojis when you’re engaging with a conversation to him or he might think that you’re angry when you don’t use ‘em. He’s the kindest, the most humble, and the most handsome human being according to his mum.</span>
+                  <span>Marketing not-so specialist & community manager. He’s passionate about making the community safe and sound. Just please, use emojis when you’re engaging to a conversation to him or he might think that you’re angry when you don’t use ‘em. He’s the kindest, the most humble, and the most handsome human being according to his mum.</span>
                </div>
               </div>
             </div>
@@ -207,7 +220,7 @@ export default function Home() {
             <div>
                 <div>
                   <span>Sly Josie</span>
-                  <span>Art directress. She’s an artist. She cares way too much about her "images."" Yup, not only an image but 10,000 of ‘em. A newbie in the industry, but it was a love at first sight. She might not own any $SHIB but definitely owns a living, barking Shiba Inu.</span>
+                  <span>Art directress. She’s an artist. She cares way too much about her "images."" Yup, not only an image but 10,000 of 'em. A newbie in the industry, but it was a love at first sight. She might not own any $SHIB but definitely owns a living, barking Shiba Inu.</span>
                </div>
               </div>
             </div>
@@ -231,7 +244,7 @@ export default function Home() {
         <div className="dF">
           <div className="f1">
             <div className="faq">
-              <span>What is <span className="blueC">Sly Sloth World</span>?</span>
+              <span>What is <span className="blueC">Sly Sloths World</span>?</span>
               <span>Sly Sloth World is a collection of 10,000 unique, randomly generated NFTs that just want to live in peace and safety.</span>
             </div>
           </div>
@@ -246,7 +259,7 @@ export default function Home() {
           <div className="f1">
             <div className="faq">
               <span>How much does it cost to get a <span className="blueC">Sloth</span>?</span>
-              <span>Each Sloth costs 0.05 ETH.</span>
+              <span>Each Sloth costs 0.05ETH.</span>
             </div>
           </div>
           <div className="f1">
