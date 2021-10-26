@@ -976,11 +976,15 @@ html {
       max-height: 300px;
     }
 
-    #team img {
-      max-height:600px;
+    #team .f1 img {
+      max-height:100vw;
     }
 
     #title {
+      position:relative;
+      top:unset !important;
+      -webkit-transform: unset !important;
+      transform: unset Im !important;
       width: calc(100% - 2rem);
       padding:0 1rem;
     }
@@ -999,9 +1003,18 @@ html {
 
   @media (max-width: 480px) {
 
+    #title .btns a {
+      display:block;
+      margin-left: 0 !important;
+      margin-top:1rem;
+    }
+
   }
 
   @media (max-width:375px) {
+    #title .bimage {
+      display:none !important;
+    }
 
   }
 
