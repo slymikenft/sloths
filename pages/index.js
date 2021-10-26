@@ -126,7 +126,7 @@ export default function Home() {
               <h2 className="f40 whiteC sF lT4">ROADMAP<span></span></h2>
               <img className="dB icon mL1" src={'/static/road-map.svg'} />
             </div>
-            <span className="whiteC dB"><b>Sly Sloth World</b> will have 3 phases for roadmap: <span className="blueC bold">The Settle</span>, <span className="blueC bold">The Utility</span> and <span className="blueC bold">The "???".</span> The two latter phases will be revealed later as we progress. This is to secure the longevity and continuous growth of this project.
+            <span className="whiteC dB"><b>Sly Sloth World</b> will have 3 phases for roadmap: <span className="blueC bold">The Settle</span>, <span className="blueC bold">The Economy</span> and <span className="blueC bold">The "???".</span> The two latter phases will be revealed later as we progress. This is to secure the longevity and continuous growth of this project.
             </span>           
             <div className="mT2">
               <div className="dF vC">
