@@ -9,15 +9,10 @@ import { useState, useEffect } from 'react';
 
 export default function Home() {
 
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = "./../custom.js";
-    script.async = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    }
-  }, []);
+  async function closeMenuOnClick () {
+    $('#toggle').toggleClass('active');
+    $('#overlayMobile').toggleClass('open');
+  }
 
   return (
     <div>
@@ -27,7 +22,7 @@ export default function Home() {
       </Head>
       <nav className="dF container">
           <img height="50" className="dB icon" src={'/static/logo.jpg'} />
-          <div className="dF f1 hR vC">
+          <div className="dF f1 hR vC dN860">
               <a href="#story"><span>STORY</span></a>
               <a href="#roadmap"><span>ROADMAP</span></a>
               <a href="#team"><span>TEAM</span></a>
@@ -37,18 +32,22 @@ export default function Home() {
               {/* <button id="walletAddr" onClick={() => signIn()} className="blueBtn ">CONNECT WALLET</button> */}
           </div>
       </nav>        
-      <div class="button_container displayNone790F" d="toggle">
-            <span class="top"></span>
-            <span class="middle"></span>
-            <span class="bottom"></span>
+      <div className="button_container dB860" onClick={() => closeMenuOnClick()} id="toggle">
+            <span className="top"></span>
+            <span className="middle"></span>
+            <span className="bottom"></span>
         </div>
-        <div class="overlayMobile displayNone790F" id="overlayMobile">
+        <div className="overlayMobile displayNone790F" id="overlayMobile">
             <div>
-                <a onclick="closeMenuOnClick()" href="/Manage/Courses">START</a>
-                <a onclick="closeMenuOnClick()" href="/Manage/Collection">KOLEKCJA</a>
-                <a onclick="closeMenuOnClick()" href="/Home/Creators">TWÓRCY</a>
-                <a onclick="closeMenuOnClick()" href="/">BAZA PYTAŃ</a>
-                <a onclick="closeMenuOnClick()" href="javascript:document.getElementById('logoutForm').submit()">WYLOGUJ</a>
+                <img className="dB mL1 bimage" src={'/static/planet2.png'} />
+                <a onClick={() => closeMenuOnClick()} href="#story">STORY</a>
+                <a onClick={() => closeMenuOnClick()} href="#roadmap">ROADMAP</a>
+                <a onClick={() => closeMenuOnClick()} href="#team">TEAM</a>
+                <a onClick={() => closeMenuOnClick()} href="#faq">FAQ</a>
+                <div className="dF hC mT1">
+                  <a className="social" href="https://discord.gg/veJHGQxK" target="_blank"><img height="25" src={'/static/discord.svg'} /></a>
+                  <a className="social mL1" href="https://twitter.com/slyslothsworld" target="_blank"><img height="25" className="" src={'/static/twitter.svg'} /></a>
+                </div>
             </div>
         </div>
       <main>
@@ -57,19 +56,19 @@ export default function Home() {
           <div id='stars'></div>
             <div id='stars2'></div>
             <div id='stars3'></div>
-            <div id='title' class="container dF">
-              <div class="dF vC">
+            <div id='title' className="container dF">
+              <div className="dF vC">
                 <div>
-                  <span class="f14 sF lT4 blueC">WELCOME TO THE SLY SLOTHS WORLD</span>
-                  <span class="sF f40 whiteC lT4">WELCOME TO THE SLY SLOTHS WORLD</span>
-                  <span class="f16 whiteC mT1 mB2 lT1" style={{lineHeight: "22px;"}}>SSW is a collection of 10,000 Sly Sloth NFTs-unique digital collectibles living on the Ethereum blockchain.</span>
-                  <div class="dF mT1 btns">
+                  <span className="f14 sF lT4 blueC">WELCOME TO THE SLY SLOTHS WORLD</span>
+                  <span className="sF f40 whiteC lT4">WELCOME TO THE SLY SLOTHS WORLD</span>
+                  <span className="f16 whiteC mT1 mB2 lT1" style={{lineHeight: "22px;"}}>SSW is a collection of 10,000 Sly Sloth NFTs-unique digital collectibles living on the Ethereum blockchain.</span>
+                  <div className="dF mT1 btns">
                     <a target="_blank" href="https://discord.gg/2As8URk4" className="whiteBtn">JOIN DISCORD</a>
                     <a href="#story" className="blueBtn mL1">READ MORE</a>
                   </div>
                 </div>
               </div>             
-              <div class="f1 dF hC">
+              <div className="f1 dF hC">
                 <img className="dB mL1 bimage" src={'/static/planet2.png'} />
               </div>
             </div>
@@ -89,11 +88,11 @@ export default function Home() {
         </section> */}
         <section id="story" className="story">
           <div className="container dF">
-          <div class="f1 dF vC hC">
+          <div className="f1 dF vC hC">
             <img style={{paddingRight: "25%"}} height="500" className="dB mL1 bimage" src={'/static/teleport2.png'} />
           </div>
           <div className="f1">
-            <span class="f14 sF lT4 blueC dB">HOW IT BEGAN...</span>
+            <span className="f14 sF lT4 blueC dB">HOW IT BEGAN...</span>
             <div className="dIF">
               <h2 className="f40 whiteC sF lT4">THE STORY</h2>
               <img className="dB icon mL1" src={'/static/script.svg'} />
@@ -122,65 +121,65 @@ export default function Home() {
         </section> */}
         <section id="roadmap" className="container dF">
         <div className="f1">
-            <span class="f14 sF lT4 blueC dB">"The Settle"</span>
+            <span className="f14 sF lT4 blueC dB">"The Settle"</span>
             <div className="dIF">
               <h2 className="f40 whiteC sF lT4">ROADMAP<span></span></h2>
               <img className="dB icon mL1" src={'/static/road-map.svg'} />
             </div>
-            <span class="whiteC dB"><b>Sly Sloth World</b> will have 3 phases for roadmap: <span className="blueC bold">The Settle</span>, <span className="blueC bold">The Utility</span> and <span className="blueC bold">The "???".</span> The two latter phases will be revealed later as we progress. This is to secure the longevity and continuous growth of this project.
+            <span className="whiteC dB"><b>Sly Sloth World</b> will have 3 phases for roadmap: <span className="blueC bold">The Settle</span>, <span className="blueC bold">The Utility</span> and <span className="blueC bold">The "???".</span> The two latter phases will be revealed later as we progress. This is to secure the longevity and continuous growth of this project.
             </span>           
             <div className="mT2">
               <div className="dF vC">
                 <span className="f22 bold blueC">20%</span>
-                <div class="dF vC posRel mL1" style={{flex: "2"}}>
-                     <hr class="progressHR f1" />
+                <div className="dF vC posRel mL1" style={{flex: "2"}}>
+                     <hr className="progressHR f1" />
                 </div>
-                <div class="dF vC posRel" style={{flex: "8"}}>
-                     <hr class="progressHR f1" style={{background: "#F2F2F2"}} />
+                <div className="dF vC posRel" style={{flex: "8"}}>
+                     <hr className="progressHR f1" style={{background: "#F2F2F2"}} />
                  </div>
-                 <span className="whiteC dB mT05"><b class="blueC">Pre-launch giveaways, ETH raffle, releasing sneak peeks, competitions are all included here. </b> But the most important thing is to give perks to our early supporters hence, a total of 2,000 presale/whitelist slots will be sold to the people who showed support and patience from the early days of this project. This is not just only to prevent gas wars, but also to give you the privilege of having a SSW NFT first hand. </span>
+                 <span className="whiteC dB mT05"><b className="blueC">Pre-launch giveaways, ETH raffle, releasing sneak peeks, competitions are all included here. </b> But the most important thing is to give perks to our early supporters hence, a total of 2,000 presale/whitelist slots will be sold to the people who showed support and patience from the early days of this project. This is not just only to prevent gas wars, but also to give you the privilege of having a SSW NFT first hand. </span>
               </div> 
               <div className="dF vC mT2">
                 <span className="f22 bold blueC">40%</span>
-                <div class="dF vC posRel mL1" style={{flex: "4"}}>
-                     <hr class="progressHR f1" />
+                <div className="dF vC posRel mL1" style={{flex: "4"}}>
+                     <hr className="progressHR f1" />
                 </div>
-                <div class="dF vC posRel" style={{flex: "6"}}>
-                     <hr class="progressHR f1" style={{background: "#F2F2F2"}} />
+                <div className="dF vC posRel" style={{flex: "6"}}>
+                     <hr className="progressHR f1" style={{background: "#F2F2F2"}} />
                  </div>
-                 <span className="whiteC dB mT05">Our team will be bringing Sly Sloths to life.<b class="blueC"> A short animation film</b> that will revolve about the SSW’ story. Better look out for those sloths that will get the once in a lifetime opportunity to be included in the castings on this upcoming short film!</span>
+                 <span className="whiteC dB mT05">Our team will be bringing Sly Sloths to life.<b className="blueC"> A short animation film</b> that will revolve about the SSW’ story. Better look out for those sloths that will get the once in a lifetime opportunity to be included in the castings on this upcoming short film!</span>
               </div> 
               <div className="dF vC mT2">
                 <span className="f22 bold blueC">60%</span>
-                <div class="dF vC posRel mL1" style={{flex: "6"}}>
-                     <hr class="progressHR f1" />
+                <div className="dF vC posRel mL1" style={{flex: "6"}}>
+                     <hr className="progressHR f1" />
                 </div>
-                <div class="dF vC posRel" style={{flex: "4"}}>
-                     <hr class="progressHR f1" style={{background: "#F2F2F2"}} />
+                <div className="dF vC posRel" style={{flex: "4"}}>
+                     <hr className="progressHR f1" style={{background: "#F2F2F2"}} />
                  </div>
-                 <span className="whiteC dB mT05"><b class="blueC">Rarity.tools</b> is one of the most trusted tools on identifying your NFT’s rarity, and we will be securing the listing alongside with the OpenSea verification. </span>
+                 <span className="whiteC dB mT05"><b className="blueC">Rarity.tools</b> is one of the most trusted tools on identifying your NFT’s rarity, and we will be securing the listing alongside with the OpenSea verification. </span>
               </div> 
               <div className="dF vC mT2">
                 <span className="f22 bold blueC">80%</span>
-                <div class="dF vC posRel mL1" style={{flex: "8"}}>
-                     <hr class="progressHR f1" />
+                <div className="dF vC posRel mL1" style={{flex: "8"}}>
+                     <hr className="progressHR f1" />
                 </div>
-                <div class="dF vC posRel" style={{flex: "2"}}>
-                     <hr class="progressHR f1" style={{background: "#F2F2F2"}} />
+                <div className="dF vC posRel" style={{flex: "2"}}>
+                     <hr className="progressHR f1" style={{background: "#F2F2F2"}} />
                  </div>
-                 <span className="whiteC dB mT05"><b class="blueC">A $20,000 donation fund</b> will be put aside securely. The team would love to hear from the community about its suggestions. Some species of sloths are actually considered endangered, and they need our support on saving them and their shelter. And so, we will collectively decide which reputable charity preferably but not limited to the ones that support reforestation and/or endangered species. </span>
+                 <span className="whiteC dB mT05"><b className="blueC">A $20,000 donation fund</b> will be put aside securely. The team would love to hear from the community about its suggestions. Some species of sloths are actually considered endangered, and they need our support on saving them and their shelter. And so, we will collectively decide which reputable charity preferably but not limited to the ones that support reforestation and/or endangered species. </span>
               </div> 
               <div className="dF vC mT2">
                 <span className="f22 bold blueC">100%</span>
-                <div class="dF vC posRel mL1" style={{flex: "1"}}>
-                     <hr class="progressHR f1" />
+                <div className="dF vC posRel mL1" style={{flex: "1"}}>
+                     <hr className="progressHR f1" />
                 </div>
-                 <span className="whiteC dB mT05"><b class="blueC">An exclusive and limited merch</b> will launch. Expect everything extra here, we have already some great ideas and designs that are waiting for execution. Everything from the drop can only be bought if you hold an SSW NFT. More info will be provided soon as we progress.</span>
+                 <span className="whiteC dB mT05"><b className="blueC">An exclusive and limited merch</b> will launch. Expect everything extra here, we have already some great ideas and designs that are waiting for execution. Everything from the drop can only be bought if you hold an SSW NFT. More info will be provided soon as we progress.</span>
               </div> 
             </div>
        
         </div>
-        <div class="f1">
+        <div className="f1">
           <div className="roadmapImg">
             <img className="dB" src={'/static/roadmap_cut_small.jpg'} />
           </div>
@@ -188,7 +187,7 @@ export default function Home() {
          
         </section>
         <section id="team">
-        <span class="f14 sF lT4 blueC dB">MEET US</span>
+        <span className="f14 sF lT4 blueC dB">MEET US</span>
             <div className="dIF mB2">
               <h2 className="f40 whiteC sF lT4">TEAM<span></span></h2>
               <img className="dB icon mL1" src={'/static/team.png'} />
@@ -224,7 +223,7 @@ export default function Home() {
           </div>
         </section>
         <section id="faq" className="container">
-        <span class="f14 sF lT4 blueC dB">FAQ</span>
+        <span className="f14 sF lT4 blueC dB">FAQ</span>
         <div className="dIF mB2">
           <h2 className="f40 whiteC sF lT4">FREQUENTLY ASKED QUESTIONS<span></span></h2>
           <img className="dB icon mL1" src={'/static/faq.png'} />

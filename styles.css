@@ -946,9 +946,16 @@ html {
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 860px) {
+    .dB860 {
+      display:block !important;
+    }
 
+    .dN860 {
+      display:none !important;
+    }
 }
+
 
   @media (max-width: 780px) {   
 
@@ -961,8 +968,21 @@ html {
 
   @media (max-width: 600px) {    
 
+    #roadmap .roadmapImg {
+      margin-top:2rem;
+    }
+
+    .bimage {
+      max-height: 300px;
+    }
+
+    #team img {
+      max-height:600px;
+    }
+
     #title {
-      min-width: 100%;
+      width: calc(100% - 2rem);
+      padding:0 1rem;
     }
 
     #story .bimage {
@@ -992,10 +1012,10 @@ html {
 
   .overlayMobile a {
     display: block;
-    min-width: 100%;
     text-align: center;
-    color: white;
+    color: #fff;
     font-size: 34px;
+    margin-top:0.5rem;
 }
 
 .overlayMobile img {
@@ -1003,9 +1023,14 @@ html {
     margin:auto;
 }
 
+.overlayMobile img {
+  max-width: 160px;
+  margin-bottom: 2rem;
+}
+
 .overlayMobile {
     position: fixed;
-    background: #a7d805;
+    background: #000;
     top: 0;
     left: 0;
     width: 100%;
@@ -1018,7 +1043,7 @@ html {
 }
 
     .overlayMobile.open {
-        opacity: .9;
+        opacity: .97;
         visibility: visible;
         height: 100%;
         display: flex;
@@ -1046,14 +1071,14 @@ html {
 
 .button_container {
     position: fixed;
-    top: 1.3rem;
+    top: 2.3rem;
     right: 2%;
     height: 27px;
     width: 35px;
     cursor: pointer;
-    z-index: 100;
+    z-index: 9999;
     transition: opacity .25s ease;
-    right:2rem;
+    right:2.5rem;
     display:none;
 }
 
@@ -1077,7 +1102,7 @@ html {
     }
 
     .button_container span {
-        background: #a7d805;
+        background: #FFF;
         border: none;
         height: 5px;
         width: 100%;
