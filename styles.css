@@ -602,6 +602,7 @@ nav a:hover span {
 
 html {
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 #title {

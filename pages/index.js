@@ -18,11 +18,11 @@ export default function Home() {
     <div>
       <Head>
         <title>Sly Sloths World</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/static/favicon-32x32.png" />
         <meta property="og:title" content="Sly Sloths World" key="ogtitle" />
         <meta property="og:description" content="SSW is a collection of 10,000 Sly Sloths NFTs-unique digital collectibles living on the Ethereum blockchain." key="ogdesc" />
         <meta property="og:type" content="website" key="ogtype" />
-        <meta property="og:url" content="https://slyslothsworld.co,/" key="ogurl"/>
+        <meta property="og:url" content="https://slyslothsworld.com/" key="ogurl"/>
         <meta property="og:image" content="https://slyslothsworld.com/static/planet2.png" key="ogimage"/>
         <meta property="og:site_name" content="https://slyslothsworld.com/" key="ogsitename" />
 
