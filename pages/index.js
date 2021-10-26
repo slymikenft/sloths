@@ -147,7 +147,7 @@ export default function Home() {
                 <div className="dF vC posRel" style={{flex: "6"}}>
                      <hr className="progressHR f1" style={{background: "#F2F2F2"}} />
                  </div>
-                 <span className="whiteC dB mT05">Our team will be bringing Sly Sloths to life.<b className="blueC"> A short animation film</b> that will revolve about the SSW’ story. Better look out for those sloths that will get the once in a lifetime opportunity to be included in the castings on this upcoming short film!</span>
+                 <span className="whiteC dB mT05"><b className="blueC">Rarity.tools</b> is one of the most trusted tools on identifying your NFT’s rarity, and we will be securing the listing alongside with the OpenSea verification. </span>
               </div> 
               <div className="dF vC mT2">
                 <span className="f22 bold blueC">60%</span>
@@ -157,7 +157,7 @@ export default function Home() {
                 <div className="dF vC posRel" style={{flex: "4"}}>
                      <hr className="progressHR f1" style={{background: "#F2F2F2"}} />
                  </div>
-                 <span className="whiteC dB mT05"><b className="blueC">Rarity.tools</b> is one of the most trusted tools on identifying your NFT’s rarity, and we will be securing the listing alongside with the OpenSea verification. </span>
+                 <span className="whiteC dB mT05">Our team will be bringing Sly Sloths to life.<b className="blueC"> A short animation film</b> that will revolve about the SSW’ story. Better look out for those sloths that will get the once in a lifetime opportunity to be included in the castings on this upcoming short film!</span>
               </div> 
               <div className="dF vC mT2">
                 <span className="f22 bold blueC">80%</span>
