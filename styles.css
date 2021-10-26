@@ -820,3 +820,278 @@ html {
 #promo img {
   max-width: 12.5%;
 }
+
+
+/* RWD */
+
+
+
+
+@media (min-width: 1440px) {
+
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 1600px) and (min-width:1450) {
+
+}
+
+@media (max-width: 1440px) {
+
+  .container {
+      max-width: 1320px;
+      margin: auto;
+  }
+}
+
+
+@media (max-width: 1370px) {
+  .container {
+      max-width: 1120px;
+      margin: auto;
+      padding: 2rem 0;
+  }
+
+
+}
+
+@media (min-width: 1026px) {
+  .dN1026P {
+      display: none !important;
+  }
+
+}
+
+@media (max-width: 1026px) {
+
+  #faq .dF > .f1:not(:first-child) {
+    margin-top:2rem;
+  }
+  
+
+  #title {
+    text-align: center;
+    margin-top:3rem;
+  }
+
+  #title .bimage {
+    margin-left: 0;
+    max-width: 300px;
+  }
+
+  #title .btns {
+    justify-content: center;
+  }
+
+  #story .container {
+    flex-direction: column-reverse;
+  }
+
+  #story .bimage {
+    margin-top:2rem;
+    margin-left: 0rem;
+  }
+
+  .mainS .bimage {
+    margin-top:2rem;
+  }
+
+  #team .dF .f1 {
+    margin:unset !important;
+  }
+
+  #team img {
+    height:100%;
+  }
+
+  #title > div:first-child {
+    width:100%;
+    max-width: 100%;
+  }
+
+  .dF .f1 {
+    min-width: 100%;
+    margin:auto;
+  }
+
+  footer .f1, nav .f1 {
+    min-width: unset !important;
+  }
+
+  .container {
+      max-width: 960px;
+      width: 90%;
+      margin: auto;
+  }
+
+  .container .bimage {
+    padding:0 !important;
+  }
+
+  .dN1026 {
+      display: none !important;
+  }
+
+  .dB1026 {
+      display: block !important;
+  }
+
+  .dIF1026 {
+      display: inline-flex !important;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+}
+
+  @media (max-width: 780px) {   
+
+      .container {
+          max-width: 720px;
+          margin: auto;
+          padding: 1.5rem 0;
+      }
+  }
+
+  @media (max-width: 600px) {    
+
+    #title {
+      min-width: 100%;
+    }
+
+    #story .bimage {
+      display:none !important;
+    }
+
+      .container {
+          max-width: 560px;
+          margin: auto;
+          padding: 1.5rem 0;
+      }
+
+  }
+
+  @media (max-width: 480px) {
+
+  }
+
+  @media (max-width:375px) {
+
+  }
+
+  @media (max-width: 330px) {
+
+    
+  }
+
+  .overlayMobile a {
+    display: block;
+    min-width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 34px;
+}
+
+.overlayMobile img {
+    display:block !important;
+    margin:auto;
+}
+
+.overlayMobile {
+    position: fixed;
+    background: #a7d805;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
+    z-index: 999;
+}
+
+    .overlayMobile.open {
+        opacity: .9;
+        visibility: visible;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .overlayMobile.open li {
+            animation: fadeInRight .5s ease forwards;
+            animation-delay: .35s;
+        }
+
+            .overlayMobile.open li:nth-of-type(2) {
+                animation-delay: .4s;
+            }
+
+            .overlayMobile.open li:nth-of-type(3) {
+                animation-delay: .45s;
+            }
+
+            .overlayMobile.open li:nth-of-type(4) {
+                animation-delay: .50s;
+            }
+
+.button_container {
+    position: fixed;
+    top: 1.3rem;
+    right: 2%;
+    height: 27px;
+    width: 35px;
+    cursor: pointer;
+    z-index: 100;
+    transition: opacity .25s ease;
+    right:2rem;
+    display:none;
+}
+
+    .button_container:hover {
+        opacity: .7;
+    }
+
+    .button_container.active .top {
+        transform: translateY(11px) translateX(0) rotate(45deg);
+        background: white;
+    }
+
+    .button_container.active .middle {
+        opacity: 0;
+        background: white;
+    }
+
+    .button_container.active .bottom {
+        transform: translateY(-11px) translateX(0) rotate(-45deg);
+        background: white;
+    }
+
+    .button_container span {
+        background: #a7d805;
+        border: none;
+        height: 5px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all .35s ease;
+        cursor: pointer;
+    }
+
+        .button_container span:nth-of-type(2) {
+            top: 11px;
+        }
+
+        .button_container span:nth-of-type(3) {
+            top: 22px;
+        }

@@ -9,6 +9,16 @@ import { useState, useEffect } from 'react';
 
 export default function Home() {
 
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = "./../custom.js";
+    script.async = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
+
   return (
     <div>
       <Head>
@@ -26,7 +36,21 @@ export default function Home() {
               <a className="social" href="https://twitter.com/slyslothsworld" target="_blank"><img height="25" className="mL05" src={'/static/twitter.svg'} /></a>
               {/* <button id="walletAddr" onClick={() => signIn()} className="blueBtn ">CONNECT WALLET</button> */}
           </div>
-      </nav>
+      </nav>        
+      <div class="button_container displayNone790F" d="toggle">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+        <div class="overlayMobile displayNone790F" id="overlayMobile">
+            <div>
+                <a onclick="closeMenuOnClick()" href="/Manage/Courses">START</a>
+                <a onclick="closeMenuOnClick()" href="/Manage/Collection">KOLEKCJA</a>
+                <a onclick="closeMenuOnClick()" href="/Home/Creators">TWÓRCY</a>
+                <a onclick="closeMenuOnClick()" href="/">BAZA PYTAŃ</a>
+                <a onclick="closeMenuOnClick()" href="javascript:document.getElementById('logoutForm').submit()">WYLOGUJ</a>
+            </div>
+        </div>
       <main>
         <section className="mainS">
           <div>
@@ -39,7 +63,7 @@ export default function Home() {
                   <span class="f14 sF lT4 blueC">WELCOME TO THE SLY SLOTHS WORLD</span>
                   <span class="sF f40 whiteC lT4">WELCOME TO THE SLY SLOTHS WORLD</span>
                   <span class="f16 whiteC mT1 mB2 lT1" style={{lineHeight: "22px;"}}>SSW is a collection of 10,000 Sly Sloth NFTs-unique digital collectibles living on the Ethereum blockchain.</span>
-                  <div class="dF mT1">
+                  <div class="dF mT1 btns">
                     <a target="_blank" href="https://discord.gg/2As8URk4" className="whiteBtn">JOIN DISCORD</a>
                     <a href="#story" className="blueBtn mL1">READ MORE</a>
                   </div>
@@ -51,7 +75,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="promo">
+        {/* <section id="promo">
           <div>
             <img src={'/static/2_1.jpg'} />
             <img src={'/static/3_2.jpg'} />
@@ -62,7 +86,7 @@ export default function Home() {
             <img src={'/static/8_7.jpg'} />
             <img src={'/static/9_8.jpg'} />
           </div>
-        </section>
+        </section> */}
         <section id="story" className="story">
           <div className="container dF">
           <div class="f1 dF vC hC">
@@ -84,7 +108,7 @@ export default function Home() {
           </div>
           
         </section>
-        <section id="promo">
+        {/* <section id="promo">
           <div>
             <img src={'/static/10_9.jpg'} />
             <img src={'/static/11_10.jpg'} />
@@ -95,7 +119,7 @@ export default function Home() {
             <img src={'/static/16_15.jpg'} />
             <img src={'/static/17_16.jpg'} />
           </div>
-        </section>
+        </section> */}
         <section id="roadmap" className="container dF">
         <div className="f1">
             <span class="f14 sF lT4 blueC dB">"The Settle"</span>
@@ -158,7 +182,7 @@ export default function Home() {
         </div>
         <div class="f1">
           <div className="roadmapImg">
-            <img className="dB" src={'/static/ROADMAPFINAL_SMALL.png'} />
+            <img className="dB" src={'/static/roadmap_cut_small.jpg'} />
           </div>
         </div>
          
@@ -261,3 +285,4 @@ export default function Home() {
     </div>
   )
 }
+
