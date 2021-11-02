@@ -40,7 +40,7 @@ export default function Home() {
               <a href="#roadmap"><span>ROADMAP</span></a>
               <a href="#team"><span>TEAM</span></a>
               <a href="#faq"><span>FAQ</span></a>
-              <a className="social" href="https://discord.gg/veJHGQxK" target="_blank"><img height="25" src={'/static/discord.svg'} /></a>
+              <a className="social" href="https://discord.gg/RC59EPTmTh" target="_blank"><img height="25" src={'/static/discord.svg'} /></a>
               <a className="social" href="https://twitter.com/slyslothsworld" target="_blank"><img height="25" className="mL05" src={'/static/twitter.svg'} /></a>
               {/* <button id="walletAddr" onClick={() => signIn()} className="blueBtn ">CONNECT WALLET</button> */}
           </div>
@@ -220,7 +220,7 @@ export default function Home() {
             <div>
                 <div>
                   <span>Sly Josie</span>
-                  <span>Art directress. She’s an artist. She cares way too much about her "images."" Yup, not only an image but 10,000 of 'em. A newbie in the industry, but it was a love at first sight. She might not own any $SHIB but definitely owns a living, barking Shiba Inu.</span>
+                  <span>Art directress. She’s an artist. She cares way too much about her "images." Yup, not only an image but 10,000 of 'em. A newbie in the industry, but it was a love at first sight. She might not own any $SHIB but definitely owns a living, barking Shiba Inu.</span>
                </div>
               </div>
             </div>
@@ -290,7 +290,7 @@ export default function Home() {
             <span className="whiteC">© Copyright 2021 Sly Sloths World NFT. All Rights Reserved.</span>
         </div>
         <div className="f1 dF hR">
-            <a className="social" href="https://discord.gg/veJHGQxK" target="_blank"><img height="25" src={'/static/discord.svg'} /></a>
+            <a className="social" href="https://discord.gg/RC59EPTmTh" target="_blank"><img height="25" src={'/static/discord.svg'} /></a>
             <a className="social" href="https://twitter.com/slyslothsworld" target="_blank"><img height="25" className="mL05" src={'/static/twitter.svg'} /></a>
         </div>
       </footer>
