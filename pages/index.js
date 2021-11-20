@@ -279,7 +279,7 @@ export default function Home() {
           <div className="f1">
             <div className="faq">
               <span>When does SSW <span className="blueC">launch</span>?</span>
-              <span>To be announced! </span>
+              <span>Presale 29/11 | Main sale 30/11 </span>
             </div>
           </div>
         </div>
