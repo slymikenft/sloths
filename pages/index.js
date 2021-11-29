@@ -42,6 +42,7 @@ export default function Home() {
               <a href="#faq"><span>FAQ</span></a>
               <a className="social" href="https://discord.gg/RC59EPTmTh" target="_blank"><img height="25" src={'/static/discord.svg'} /></a>
               <a className="social" href="https://twitter.com/slyslothsworld" target="_blank"><img height="25" className="mL05" src={'/static/twitter.svg'} /></a>
+              <a className="social" href="https://slyslothsworld.medium.com/" target="_blank"><img height="25" className="mL05" src={'/static/medium.png'} /></a>
               {/* <button id="walletAddr" onClick={() => signIn()} className="blueBtn ">CONNECT WALLET</button> */}
           </div>
       </nav>        
@@ -60,6 +61,7 @@ export default function Home() {
                 <div className="dF hC mT1">
                   <a className="social" href="https://discord.gg/RC59EPTmTh" target="_blank"><img height="25" src={'/static/discord.svg'} /></a>
                   <a className="social mL1" href="https://twitter.com/slyslothsworld" target="_blank"><img height="25" className="" src={'/static/twitter.svg'} /></a>
+                  <a className="social mL1" href="https://slyslothsworld.medium.com/" target="_blank"><img height="25" className="" src={'/static/medium.png'} /></a>
                 </div>
             </div>
         </div>
@@ -140,7 +142,9 @@ export default function Home() {
               <img className="dB icon mL1" src={'/static/road-map.svg'} />
             </div>
             <span className="whiteC dB"><b>Sly Sloth World</b> will have 3 phases for roadmap: <span className="blueC bold">The Settle</span>, <span className="blueC bold">The Economy</span> and <span className="blueC bold">The "???".</span> The two latter phases will be revealed later as we progress. This is to secure the longevity and continuous growth of this project.
-            </span>           
+            </span>      
+            <span className="whiteC dB f18 mT05">Check <span className="blueC bold f18">The Economy's</span> sneakpeek <a className="f18" style={{padding: "0", color:"#FFF", textDecoration:"underline !important", fontSize:"18px"}} target="_blank" href="https://slyslothsworld.medium.com/sly-sloths-world-utility-overview-d0ae5c003f78">here!</a> Includes staking, $DND and more!
+            </span>    
             <div className="mT2">
               <div className="dF vC">
                 <span className="f22 bold blueC">20%</span>
@@ -259,7 +263,7 @@ export default function Home() {
           <div className="f1">
             <div className="faq">
               <span>How much does it cost to get a <span className="blueC">Sloth</span>?</span>
-              <span>Each Sloth costs 0.05ETH.</span>
+              <span>Each Sloth costs 0.05ETH (0.035 during presale).</span>
             </div>
           </div>
           <div className="f1">
@@ -279,7 +283,7 @@ export default function Home() {
           <div className="f1">
             <div className="faq">
               <span>When does SSW <span className="blueC">launch</span>?</span>
-              <span>Presale 29/11 | Main sale 30/11 </span>
+              <span>Presale 1/12 | Main sale 2/12 </span>
             </div>
           </div>
         </div>
@@ -292,6 +296,7 @@ export default function Home() {
         <div className="f1 dF hR">
             <a className="social" href="https://discord.gg/RC59EPTmTh" target="_blank"><img height="25" src={'/static/discord.svg'} /></a>
             <a className="social" href="https://twitter.com/slyslothsworld" target="_blank"><img height="25" className="mL05" src={'/static/twitter.svg'} /></a>
+            <a className="social" href="https://slyslothsworld.medium.com/" target="_blank"><img height="25" className="mL05" src={'/static/medium.png'} /></a>
         </div>
       </footer>
     </div>
