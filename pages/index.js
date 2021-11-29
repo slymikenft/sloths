@@ -76,7 +76,7 @@ export default function Home() {
                   <span className="sF f40 whiteC lT4">WELCOME TO THE SLY SLOTHS WORLD</span>
                   <span className="f16 whiteC mT1 mB2 lT1" style={{lineHeight: "22px;"}}>SSW is a collection of 10,000 Sly Sloths NFTs-unique digital collectibles living on the Ethereum blockchain.</span>
                   <div className="dF mT1 btns">
-                    <a target="_blank" href="https://discord.gg/2As8URk4" className="whiteBtn">JOIN DISCORD</a>
+                    <a target="_blank" href="https://discord.gg/RC59EPTmTh" className="whiteBtn">JOIN DISCORD</a>
                     <a href="#story" className="blueBtn mL1">READ MORE</a>
                   </div>
                 </div>
