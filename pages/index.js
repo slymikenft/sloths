@@ -58,7 +58,7 @@ export default function Home() {
                 <a onClick={() => closeMenuOnClick()} href="#team">TEAM</a>
                 <a onClick={() => closeMenuOnClick()} href="#faq">FAQ</a>
                 <div className="dF hC mT1">
-                  <a className="social" href="https://discord.gg/veJHGQxK" target="_blank"><img height="25" src={'/static/discord.svg'} /></a>
+                  <a className="social" href="https://discord.gg/RC59EPTmTh" target="_blank"><img height="25" src={'/static/discord.svg'} /></a>
                   <a className="social mL1" href="https://twitter.com/slyslothsworld" target="_blank"><img height="25" className="" src={'/static/twitter.svg'} /></a>
                 </div>
             </div>
