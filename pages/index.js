@@ -39,7 +39,7 @@ export default function Home() {
               <a href="#story"><span>STORY</span></a>
               <a href="#roadmap"><span>ROADMAP</span></a>
               <a href="#team"><span>TEAM</span></a>
-              <a href="#faq"><span>FAQ</span></a>
+              <a href="/mint"><span className="blueC">MINT</span></a>
               <a className="social" href="https://discord.gg/RC59EPTmTh" target="_blank"><img height="25" src={'/static/discord.svg'} /></a>
               <a className="social" href="https://twitter.com/slyslothsworld" target="_blank"><img height="25" className="mL05" src={'/static/twitter.svg'} /></a>
               <a className="social" href="https://slyslothsworld.medium.com/" target="_blank"><img height="25" className="mL05" src={'/static/medium.png'} /></a>
@@ -57,7 +57,7 @@ export default function Home() {
                 <a onClick={() => closeMenuOnClick()} href="#story">STORY</a>
                 <a onClick={() => closeMenuOnClick()} href="#roadmap">ROADMAP</a>
                 <a onClick={() => closeMenuOnClick()} href="#team">TEAM</a>
-                <a onClick={() => closeMenuOnClick()} href="#faq">FAQ</a>
+                <a onClick={() => closeMenuOnClick()} href="/mint">MINT</a>
                 <div className="dF hC mT1">
                   <a className="social" href="https://discord.gg/RC59EPTmTh" target="_blank"><img height="25" src={'/static/discord.svg'} /></a>
                   <a className="social mL1" href="https://twitter.com/slyslothsworld" target="_blank"><img height="25" className="" src={'/static/twitter.svg'} /></a>
@@ -79,7 +79,7 @@ export default function Home() {
                   <span className="f16 whiteC mT1 mB2 lT1" style={{lineHeight: "22px;"}}>SSW is a collection of 10,000 Sly Sloths NFTs-unique digital collectibles living on the Ethereum blockchain.</span>
                   <div className="dF mT1 btns">
                     <a target="_blank" href="https://discord.gg/RC59EPTmTh" className="whiteBtn">JOIN DISCORD</a>
-                    <a href="#story" className="blueBtn mL1">READ MORE</a>
+                    <a href="/mint" className="blueBtn mL1">MINTING</a>
                   </div>
                 </div>
               </div>             
