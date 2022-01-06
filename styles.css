@@ -662,8 +662,14 @@ html {
       background: #F2F2F2;
   }
 
-  .bimage {
+  /* .bimage {
     max-width:400px;
+  } */
+
+  .mainS .bimage {
+    max-width: 50%;
+    border-radius: 5px;
+    opacity:0.8;
   }
 
 .mintC {
