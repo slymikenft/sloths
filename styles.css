@@ -672,6 +672,24 @@ html {
     opacity:0.8;
   }
 
+  .discount {
+    position: absolute;
+    background-color: red;
+    z-index: 2;
+    padding: 1.5rem 1.4rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    top: -45px;
+  }
+
+  .discount span {
+    color:#fff;
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
 .mintC {
   z-indeX:999;
   width:100%;
@@ -874,7 +892,18 @@ html {
 
 }
 
+@media (max-width: 1050px) {
+  .discount {
+    display:none !important;
+  }
+
+  .discountLabel {
+    display: inline-block !important;
+  }
+}
+
 @media (min-width: 1026px) {
+
   .dN1026P {
       display: none !important;
   }
@@ -895,7 +924,7 @@ html {
 
   #title .bimage {
     margin-left: 0;
-    max-width: 300px;
+    /* max-width: 300px; */
   }
 
   #title .btns {
@@ -1040,6 +1069,9 @@ html {
   }
 
   @media (max-width: 480px) {
+    .mn1 {
+      display:none !important; 
+   }
 
     #title .btns a {
       display:block;
@@ -1072,9 +1104,7 @@ html {
   }
 
   @media (max-width:375px) {
-    #title .bimage {
-      display:none !important;
-    }
+
 
   }
 

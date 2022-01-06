@@ -77,14 +77,18 @@ export default function Home() {
                   <span className="f14 sF lT4 blueC">JOIN OUR JOURNEY</span>
                   <span className="sF f40 whiteC lT4">WELCOME TO THE SLY SLOTHS WORLD</span>
                   <span className="f16 whiteC mT1 mB2 lT1" style={{lineHeight: "22px;"}}>SSW is a collection of 10,000 Sly Sloths NFTs-unique digital collectibles living on the Ethereum blockchain.</span>
+                  <span className="discountLabel dN" style={{backgroundColor: "red", fontSize: "22px", color: "#FFF", padding: "0.5rem 1rem", marginTop: "-1rem"}}>ON SALE!</span>
                   <div className="dF mT1 btns">
                     <a target="_blank" href="https://discord.gg/RC59EPTmTh" className="whiteBtn">JOIN DISCORD</a>
                     <a href="/mint" className="blueBtn mL1">MINTING</a>
                   </div>
                 </div>
               </div>             
-              <div className="f1 dF hC">
-                <img className="dB mL1 bimage" src={'/static/ssw.gif'} />
+              <div className="f1 dF hC mn1">   
+              <div className="discount">
+                <span>ON <br /> SALE!</span>
+              </div>    
+              <img className="dB mL1 bimage" src={'/static/ssw.gif'} />                                             
               </div>
             </div>
           </div>
@@ -112,10 +116,10 @@ export default function Home() {
               <h2 className="f40 whiteC sF lT4">THE STORY</h2>
               <img className="dB icon mL1" src={'/static/script.svg'} />
             </div>
-            <p className="whiteC lT1" style={{textAlign: "justify"}}>The year is 2078…  <br /> <br /> Numerous natural disasters 🌪️  and multiplying civilization diseases 🦠  make life more and more difficult on planet Earth 🌎. In the face of the deteriorating situation, the Great Council of Sloths  convenes an extraordinary assembly at which an absolute decision is made to leave planet Earth in order to save the species. This is a drastic move that requires a well-thought-out plan and non-standard concept, because the task is extremely difficult. The council asks for the help of the mad but highly respected astrophysicist, Dr. Slothkins, in order to save the species.
+            <p className="whiteC lT1" style={{textAlign: "justify"}}>The year is 2078…  <br /> <br /> Numerous natural disasters 🌪️  and multiplying civilization diseases 🦠  make life more and more difficult on planet Earth 🌎. In the face of the deteriorating situation, the Great Council of Sloths convenes an extraordinary assembly at which an absolute decision is made to leave planet Earth in order to save the species. This is a drastic move that requires a well-thought-out plan and non-standard concept, because the task is extremely difficult. The council asks for the help of the mad but highly respected astrophysicist, Dr. Slothkins, in order to save the species.
             <br /> <br />
-            Many weeks ⌛ of research and consultation bring only mediocre results. This resigned society is close to accepting the current state of affairs and its own fate. Two days before the rescue plan deadline, Slothkins comes up with a controversial idea - the sloths will move to a planet 300 million light-years away with conditions similar to Earth called STH-13894 🪐. <br /><br />
-            There are too many sloths to decide to travel by available means of transport, so the only hope is in the prototype of Slothkins' invention, which was ultimately to be the world's first teleportation device - SlothPorter  . The concept created has nothing to do with a well-thought-out and effective plan, but it is the only one to save the breed from extinction. In the face of the increasingly difficult situation in the world, the Council decides to trust Slothkins. After several weeks of hard work and hundreds of tests performed, Slothporter is ready to go. Slothkins has been observing 🔭 the chosen planet for a long time, but he has no idea what the sloths will find out there. But only one thing is certain - they have to build their lives from scratch there. A new chapter begins - <span className="blueC"><i><b>The Settle</b></i></span>.
+            After many weeks ⌛ of research and consultation Slothkins comes up with a controversial idea - the sloths will move to a planet 300 million light-years away with conditions similar to Earth called STH-13894 🪐. <br /><br />
+            In the face of the increasingly difficult situation in the world, the Council decides to trust Slothkins. Slothkins has been observing 🔭 the chosen planet for a long time, but he has no idea what the sloths will find out there. But only one thing is certain - they have to build their lives from scratch there. A new chapter begins - <span className="blueC"><i><b>The Settle</b></i></span>.
             </p>
             <a href="#roadmap" className="blueBtn mT1 dIF">ROADMAP</a>
           </div>
@@ -150,7 +154,7 @@ export default function Home() {
                 <div className="dF vC posRel" style={{flex: "8"}}>
                      <hr className="progressHR f1" style={{background: "#F2F2F2"}} />
                  </div>
-                 <span className="whiteC dB mT05"><b className="blueC">Pre-launch giveaways, ETH raffle, releasing sneak peeks, competitions are all included here. </b> But the most important thing is to give perks to our early supporters hence, a total of 2,000 presale/whitelist slots will be sold to the people who showed support and patience from the early days of this project. This is not just only to prevent gas wars, but also to give you the privilege of having a SSW NFT first hand. </span>
+                 <span className="whiteC dB mT05 mW100"><b className="blueC"> Airdrop. </b> 10 random holders will receive a Sly Sloth! </span>
               </div> 
               <div className="dF vC mT2">
                 <span className="f22 bold blueC">40%</span>
@@ -170,7 +174,7 @@ export default function Home() {
                 <div className="dF vC posRel" style={{flex: "4"}}>
                      <hr className="progressHR f1" style={{background: "#F2F2F2"}} />
                  </div>
-                 <span className="whiteC dB mT05">Our team will be bringing Sly Sloths to life.<b className="blueC"> A short animation film</b> that will revolve about the SSW's story. Better look out for those sloths that will get the once in a lifetime opportunity to be included in the castings on this upcoming short film!</span>
+                 <span className="whiteC dB mT05">Our team will be bringing Sly Sloths to life.<b className="blueC"> A short animation film</b> that will revolve about the SSW's story. </span>
               </div> 
               <div className="dF vC mT2">
                 <span className="f22 bold blueC">80%</span>
@@ -180,14 +184,14 @@ export default function Home() {
                 <div className="dF vC posRel" style={{flex: "2"}}>
                      <hr className="progressHR f1" style={{background: "#F2F2F2"}} />
                  </div>
-                 <span className="whiteC dB mT05"><b className="blueC">A $10,000 donation fund</b> will be put aside securely. The team would love to hear from the community about its suggestions. Some species of sloths are actually considered endangered, and they need our support on saving them and their shelter. And so, we will collectively decide which reputable charity preferably but not limited to the ones that support reforestation and/or endangered species. </span>
+                 <span className="whiteC dB mT05"><b className="blueC">A $10,000 donation fund</b> will be put aside securely. The team would love to hear from the community about its suggestions. Some species of sloths are actually considered endangered, and they need our support on saving them and their shelter. </span>
               </div> 
               <div className="dF vC mT2">
                 <span className="f22 bold blueC">100%</span>
                 <div className="dF vC posRel mL1" style={{flex: "1"}}>
                      <hr className="progressHR f1" />
                 </div>
-                 <span className="whiteC dB mT05"><b className="blueC">An exclusive and limited merch</b> will launch. Expect everything extra here, we have already some great ideas and designs that are waiting for execution. Everything from the drop can only be bought if you hold an SSW NFT. More info will be provided soon as we progress.</span>
+                 <span className="whiteC dB mT05"><b className="blueC">An exclusive and limited merch</b> will launch. Expect everything extra here, we have already some great ideas and designs that are waiting for execution.</span>
               </div> 
             </div>
        

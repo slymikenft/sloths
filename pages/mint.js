@@ -185,7 +185,10 @@ export default function Mint() {
         <h2 className="f40 whiteC sF lT4">MINTING<span></span></h2>
         <img className="dB icon mL1" src={'/static/teleporter.png'} />
       </div>
-      <span className="whiteC dB">Please connect your wallet by clicking button below.</span>
+      <div class="dB mW100">
+      <span className="discountLabel" style={{backgroundColor: "red", fontSize: "22px", color: "#FFF", padding: "0.5rem 1rem", display: "inline-block"}}>ON SALE! ONLY .011ETH</span>
+      </div>  
+      <span className="whiteC dB mT1">Please connect your wallet by clicking button below.</span>
       <button id="walletAddr" onClick={() => signIn()} style={{margin: "1rem auto"}} className="blueBtn dB">CONNECT WALLET</button>
       {/* <p className="wallet whiteC">Wallet Connected: {walletAddress} </p> */}
     </div>
