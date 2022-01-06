@@ -259,7 +259,7 @@ export default function Home() {
           <div className="f1">
             <div className="faq">
               <span>How much does it cost to get a <span className="blueC">Sloth</span>?</span>
-              <span>Each Sloth costs only <b>0.0111ETH.</b></span>
+              <span>Each Sloth costs only <b>0.011ETH.</b></span>
             </div>
           </div>
           <div className="f1">
