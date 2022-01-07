@@ -183,7 +183,7 @@ export default function Home() {
                 <div className="dF vC posRel" style={{flex: "4"}}>
                      <hr className="progressHR f1" style={{background: "#F2F2F2"}} />
                  </div>
-                 <span className="whiteC dB mT05 mW100">Our team will be bringing the Sly Sloths story to life with a<b className="blueC">short animation</b>.</span>
+                 <span className="whiteC dB mT05 mW100">Our team will be bringing the Sly Sloths story to life with a <b className="blueC">short animation</b>.</span>
               </div> 
               <div className="dF vC mT2">
                 <span className="f22 bold blueC">80%</span>
