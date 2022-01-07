@@ -683,11 +683,26 @@ html {
     top: -45px;
   }
 
-  .discount span {
+  .discount2 {
+    min-width: 100%;
+    z-index: 2;
+    margin-top:-15px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  .discount span, .discount2 span {
     color:#fff;
     font-size:20px;
     font-weight: bold;
     text-align: center;
+  }
+
+  .discount2 span {
+    background-color:red;
+    display:inline-block !important;
+    padding: 1rem 1.4rem;
   }
 
 .mintC {
@@ -908,6 +923,10 @@ html {
       display: none !important;
   }
 
+  #faq .dF .f1:nth-child(2)
+  {
+    margin-left: 1rem;
+  }
 }
 
 @media (max-width: 1026px) {

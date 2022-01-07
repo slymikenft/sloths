@@ -77,18 +77,27 @@ export default function Home() {
                   <span className="f14 sF lT4 blueC">JOIN OUR JOURNEY</span>
                   <span className="sF f40 whiteC lT4">WELCOME TO THE SLY SLOTHS WORLD</span>
                   <span className="f16 whiteC mT1 mB2 lT1" style={{lineHeight: "22px;"}}>SSW is a collection of 10,000 Sly Sloths NFTs-unique digital collectibles living on the Ethereum blockchain.</span>
-                  <span className="discountLabel dN" style={{backgroundColor: "red", fontSize: "22px", color: "#FFF", padding: "0.5rem 1rem", marginTop: "-1rem"}}>ON SALE!</span>
+                  <span className="discountLabel dN" onClick={(e) => {
+      e.preventDefault();
+      window.location.href='/mint';
+      }} style={{backgroundColor: "red", fontSize: "22px", color: "#FFF", padding: "0.5rem 1rem", marginTop: "-1rem"}}>ON SALE!</span>
                   <div className="dF mT1 btns">
                     <a target="_blank" href="https://discord.gg/RC59EPTmTh" className="whiteBtn">JOIN DISCORD</a>
                     <a href="/mint" className="blueBtn mL1">MINTING</a>
                   </div>
                 </div>
               </div>             
-              <div className="f1 dF hC mn1">   
+              <div onClick={(e) => {
+      e.preventDefault();
+      window.location.href='/mint';
+      }} className="f1 dF hC mn1 cP">  
               <div className="discount">
                 <span>ON <br /> SALE!</span>
               </div>    
-              <img className="dB mL1 bimage" src={'/static/ssw.gif'} />                                             
+              <img className="dB mL1 bimage" src={'/static/ssw.gif'} />    
+              <div  className="discount2">
+                <span>WOW! 78% discount!</span>  
+              </div>                                     
               </div>
             </div>
           </div>
@@ -116,7 +125,7 @@ export default function Home() {
               <h2 className="f40 whiteC sF lT4">THE STORY</h2>
               <img className="dB icon mL1" src={'/static/script.svg'} />
             </div>
-            <p className="whiteC lT1" style={{textAlign: "justify"}}>The year is 2078…  <br /> <br /> Numerous natural disasters 🌪️  and multiplying civilization diseases 🦠  make life more and more difficult on planet Earth 🌎. In the face of the deteriorating situation, the Great Council of Sloths convenes an extraordinary assembly at which an absolute decision is made to leave planet Earth in order to save the species. This is a drastic move that requires a well-thought-out plan and non-standard concept, because the task is extremely difficult. The council asks for the help of the mad but highly respected astrophysicist, Dr. Slothkins, in order to save the species.
+            <p className="whiteC lT1" style={{textAlign: "justify"}}>The year is 2078…  <br /> <br /> Numerous natural disasters 🌪️   make life more and more difficult on planet Earth 🌎. In the face of the deteriorating situation, the Great Council of Sloths convenes an extraordinary assembly at which an absolute decision is made to leave planet Earth in order to save the species. The council asks for the help of the mad but highly respected astrophysicist, Dr. Slothkins, in order to save the species.
             <br /> <br />
             After many weeks ⌛ of research and consultation Slothkins comes up with a controversial idea - the sloths will move to a planet 300 million light-years away with conditions similar to Earth called STH-13894 🪐. <br /><br />
             In the face of the increasingly difficult situation in the world, the Council decides to trust Slothkins. Slothkins has been observing 🔭 the chosen planet for a long time, but he has no idea what the sloths will find out there. But only one thing is certain - they have to build their lives from scratch there. A new chapter begins - <span className="blueC"><i><b>The Settle</b></i></span>.
@@ -164,7 +173,7 @@ export default function Home() {
                 <div className="dF vC posRel" style={{flex: "6"}}>
                      <hr className="progressHR f1" style={{background: "#F2F2F2"}} />
                  </div>
-                 <span className="whiteC dB mT05"><b className="blueC">Rarity.tools</b> is one of the most trusted tools on identifying your NFT’s rarity, and we will be securing the listing alongside with the OpenSea verification. </span>
+                 <span className="whiteC dB mT05 mW100"><b className="blueC">Rarity.tools</b> is one of the most trusted tools on identifying your NFT’s rarity. </span>
               </div> 
               <div className="dF vC mT2">
                 <span className="f22 bold blueC">60%</span>
@@ -191,7 +200,7 @@ export default function Home() {
                 <div className="dF vC posRel mL1" style={{flex: "1"}}>
                      <hr className="progressHR f1" />
                 </div>
-                 <span className="whiteC dB mT05"><b className="blueC">An exclusive and limited merch</b> will launch. Expect everything extra here, we have already some great ideas and designs that are waiting for execution.</span>
+                 <span className="whiteC dB mT05 mW100"><b className="blueC">The ETH raffle</b> will take place! Random holders will get extra cash!</span>
               </div> 
             </div>
        
