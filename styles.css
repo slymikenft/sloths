@@ -806,7 +806,7 @@ html {
   position:absolute;
   left:0;
   top:0;
-  height:100%;
+  height: calc(100% - 4rem);
   width:calc(100% - 4rem);
   background-color: rgba(0,0,0,0.75);
   opacity:0;

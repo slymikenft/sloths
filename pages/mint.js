@@ -186,7 +186,7 @@ export default function Mint() {
         <img className="dB icon mL1" src={'/static/teleporter.png'} />
       </div>
       <div class="dB mW100">
-      <span className="discountLabel" style={{backgroundColor: "red", fontSize: "22px", color: "#FFF", padding: "0.5rem 1rem", display: "inline-block"}}>ON SALE! ONLY .011ETH</span>
+      <span className="discountLabel" style={{backgroundColor: "red", fontSize: "22px", color: "#FFF", padding: "0.5rem 1rem", display: "inline-block"}}>ON SALE! ONLY .01ETH</span>
       </div>  
       <span className="whiteC dB mT1">Please connect your wallet by clicking button below.</span>
       <button id="walletAddr" onClick={() => signIn()} style={{margin: "1rem auto"}} className="blueBtn dB">CONNECT WALLET</button>
