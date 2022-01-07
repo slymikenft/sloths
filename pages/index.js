@@ -128,7 +128,7 @@ export default function Home() {
             <p className="whiteC lT1" style={{textAlign: "justify"}}>The year is 2078. Planet Earth is consumed by natural disasters, and humans are nowhere to be found. In their absence, Sloths have become Earth's keepers, but their destruction looms closer every day. One day, the Great Council of Sloths convenes and unanimously decides to elect an enterprising leader to save the species. The council turns to the mad but brilliant Dr. Slothkins—their only hope.
             <br /> <br />
             Dr. Slothkins, in typical fashion, suggests the impossible: he will move the species to a garden planet 300 million light-years away, Planet STH-69420 🪐. The Council tells the good Doctor that it is impossible, "but  . . . what choice do we have?". <br /><br />
-            And so the Council—and all of Sloth Kind—gets behind Slothkins and his harebrained scheme. Against all odds, they go successfully, and begin to build a global Sloth society on their mysterious new home planet. What surprises await Sloth Kind on their Sly Sloths World?.
+            And so the Council—and all of Sloth Kind—gets behind Slothkins and his harebrained scheme. Against all odds, they go successfully, and begin to build a global Sloth society on their mysterious new home planet. What surprises await Sloth Kind on their Sly Sloths World?
             </p>
             <a href="#roadmap" className="blueBtn mT1 dIF">ROADMAP</a>
           </div>
