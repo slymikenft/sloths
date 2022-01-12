@@ -76,14 +76,14 @@ export default function Home() {
                 <div>
                   <span className="f14 sF lT4 blueC">JOIN OUR JOURNEY</span>
                   <span className="sF f40 whiteC lT4">WELCOME TO THE SLY SLOTHS WORLD</span>
-                  <span className="f16 whiteC mT1 mB2 lT1" style={{lineHeight: "22px;"}}>SSW is a collection of 10,000 Sly Sloths NFTs-unique digital collectibles living on the Ethereum blockchain.</span>
+                  <span className="f18 whiteC mT1 mB2 lT1" style={{lineHeight: "22px;"}}>SSW is a collection of 10,000 Sly Sloths NFTs-unique digital collectibles living on the Ethereum blockchain.</span>
                   <span className="discountLabel dN" onClick={(e) => {
       e.preventDefault();
       window.location.href='/mint';
       }} style={{backgroundColor: "red", fontSize: "22px", color: "#FFF", padding: "0.5rem 1rem", marginTop: "-1rem"}}>ON SALE!</span>
                   <div className="dF mT1 btns">
-                    <a target="_blank" href="https://discord.gg/RC59EPTmTh" className="whiteBtn">JOIN DISCORD</a>
-                    <a href="/mint" className="blueBtn mL1">MINTING</a>
+                    <a target="_blank" style={{fontSize: "16px !important"}} href="https://discord.gg/RC59EPTmTh" className="whiteBtn">JOIN DISCORD</a>
+                    <a href="/mint" style={{fontSize: "16px !important"}} className="blueBtn mL1">MINTING</a>
                   </div>
                 </div>
               </div>             
@@ -125,7 +125,7 @@ export default function Home() {
               <h2 className="f40 whiteC sF lT4">THE STORY</h2>
               <img className="dB icon mL1" src={'/static/script.svg'} />
             </div>
-            <p className="whiteC lT1" style={{textAlign: "justify"}}>The year is 2078. Planet Earth is consumed by natural disasters, and humans are nowhere to be found. In their absence, Sloths have become Earth's keepers, but their destruction looms closer every day. One day, the Great Council of Sloths convenes and unanimously decides to elect an enterprising leader to save the species. The council turns to the mad but brilliant Dr. Slothkins—their only hope.
+            <p className="whiteC lT1 f18" style={{textAlign: "justify"}}>The year is 2078. Planet Earth is consumed by natural disasters, and humans are nowhere to be found. In their absence, Sloths have become Earth's keepers, but their destruction looms closer every day. One day, the Great Council of Sloths convenes and unanimously decides to elect an enterprising leader to save the species. The council turns to the mad but brilliant Dr. Slothkins—their only hope.
             <br /> <br />
             Dr. Slothkins, in typical fashion, suggests the impossible: he will move the species to a garden planet 300 million light-years away, Planet STH-69420 🪐. The Council tells the good Doctor that it is impossible, "but  . . . what choice do we have?". <br /><br />
             And so the Council—and all of Sloth Kind—gets behind Slothkins and his harebrained scheme. Against all odds, they go successfully, and begin to build a global Sloth society on their mysterious new home planet. What surprises await Sloth Kind on their Sly Sloths World?
@@ -163,7 +163,7 @@ export default function Home() {
                 <div className="dF vC posRel" style={{flex: "8"}}>
                      <hr className="progressHR f1" style={{background: "#F2F2F2"}} />
                  </div>
-                 <span className="whiteC dB mT05 mW100">10 random holders will be <b className="blueC">airdropped</b> a Sly Sloth for <b className="blueC">FREE!</b></span>
+                 <span className="whiteC dB mT05 mW100 f18">10 random holders will be <b className="blueC f18">airdropped</b> a Sly Sloth for <b className="blueC f18">FREE!</b></span>
               </div> 
               <div className="dF vC mT2">
                 <span className="f22 bold blueC">40%</span>
@@ -173,7 +173,7 @@ export default function Home() {
                 <div className="dF vC posRel" style={{flex: "6"}}>
                      <hr className="progressHR f1" style={{background: "#F2F2F2"}} />
                  </div>
-                 <span className="whiteC dB mT05 mW100">We will list our project on <b className="blueC">Rarity.tools</b>.</span>
+                 <span className="whiteC dB mT05 mW100 f18 f18">We will list our project on <b className="blueC f18">Rarity.tools</b>.</span>
               </div> 
               <div className="dF vC mT2">
                 <span className="f22 bold blueC">60%</span>
@@ -183,7 +183,7 @@ export default function Home() {
                 <div className="dF vC posRel" style={{flex: "4"}}>
                      <hr className="progressHR f1" style={{background: "#F2F2F2"}} />
                  </div>
-                 <span className="whiteC dB mT05 mW100">Our team will be bringing the Sly Sloths story to life with a <b className="blueC">short animation</b>.</span>
+                 <span className="whiteC dB mT05 mW100 f18">Our team will be bringing the Sly Sloths story to life with a <b className="blueC f18">short animation</b>.</span>
               </div> 
               <div className="dF vC mT2">
                 <span className="f22 bold blueC">80%</span>
@@ -193,14 +193,14 @@ export default function Home() {
                 <div className="dF vC posRel" style={{flex: "2"}}>
                      <hr className="progressHR f1" style={{background: "#F2F2F2"}} />
                  </div>
-                 <span className="whiteC dB mT05 mW100">A <b className="blueC">$10,000 donation fund</b> will be made to a charity of the community's choosing. </span>
+                 <span className="whiteC dB mT05 mW100 f18">A <b className="blueC f18">$10,000 donation fund</b> will be made to a charity of the community's choosing. </span>
               </div> 
               <div className="dF vC mT2">
                 <span className="f22 bold blueC">100%</span>
                 <div className="dF vC posRel mL1" style={{flex: "1"}}>
                      <hr className="progressHR f1" />
                 </div>
-                 <span className="whiteC dB mT05 mW100">We will <b className="blueC">raffle off ETH</b> to lucky holders!</span>
+                 <span className="whiteC dB mT05 mW100 f18">We will <b className="blueC f18">raffle off ETH</b> to lucky holders!</span>
               </div> 
             </div>
        
@@ -224,7 +224,7 @@ export default function Home() {
               <div>
                 <div>
                   <span>Sly Nathan</span>
-                  <span>Marketing not-so specialist & community manager. He’s passionate about making the community safe and sound. Just please, use emojis when you’re engaging to a conversation with him or he might think that you’re angry when you don’t use ‘em. He’s the kindest, the most humble, and the most handsome human being according to his mum.</span>
+                  <span className="f16">Marketing not-so specialist & community manager. He’s passionate about making the community safe and sound. Just please, use emojis when you’re engaging to a conversation with him or he might think that you’re angry when you don’t use ‘em. He’s the kindest, the most humble, and the most handsome human being according to his mum.</span>
                </div>
               </div>
             </div>
@@ -233,7 +233,7 @@ export default function Home() {
             <div>
                 <div>
                   <span>Sly Josie</span>
-                  <span>Art directress. She’s an artist. She cares way too much about her "images." Yup, not only an image but 10,000 of 'em. A newbie in the industry, but it was a love at first sight. She might not own any $SHIB but definitely owns a living, barking Shiba Inu.</span>
+                  <span className="f16">Art directress. She’s an artist. She cares way too much about her "images." Yup, not only an image but 10,000 of 'em. A newbie in the industry, but it was a love at first sight. She might not own any $SHIB but definitely owns a living, barking Shiba Inu.</span>
                </div>
               </div>
             </div>
@@ -242,7 +242,7 @@ export default function Home() {
             <div>
                 <div>
                   <span>Sly Mike</span>
-                  <span>Founder & Developer. The father of them all. The decision maker. He loves football, jpegs, and sloths. He’s the techie boss that owns a software house in real life. He believes in the saying, <i>"When life gives you lemons, buy a jpeg as it is easier than making a lemonade."</i></span>
+                  <span className="f16">Founder & Developer. The father of them all. The decision maker. He loves football, jpegs, and sloths. He’s the techie boss that owns a software house in real life. He believes in the saying, <i>"When life gives you lemons, buy a jpeg as it is easier than making a lemonade."</i></span>
                </div>
               </div>
             </div>
